@@ -1,0 +1,41 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a, li{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+header{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.menu a:hover{
+    color: yellow;
+}
+.texto{
+    text-align: center;
+    margin: 25px;
+}
+.img{
+    width: 40%;
+    margin: 10px 10px;
+}
+
