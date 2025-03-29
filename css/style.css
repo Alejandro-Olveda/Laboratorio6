@@ -5,9 +5,9 @@
     list-style: none;
 }
 
-a, li{
-    font-family: 'Times New Roman', Times, serif;
+li a{
     color: aliceblue;
+    text-decoration: none;
 }
 
 header{
@@ -30,6 +30,12 @@ header{
 .menu a:hover{
     color: yellow;
 }
+
+.menu a.active{
+    font-weight: bold;
+    color: yellow;
+}
+
 .texto{
     text-align: center;
     margin: 25px;
@@ -39,3 +45,19 @@ header{
     margin: 10px 10px;
 }
 
+.carousel-inner img {
+    max-width: 450px;
+    margin: 0 auto;
+    display: block;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 50px;
+    transform: translateY(50px);
+}
